@@ -2,7 +2,6 @@ import React from 'react';
 import {Text, StyleSheet} from 'react-native';
 
 export const CustomHeaderTitle = (props) => {
-  console.log('props', props);
   if (props.route.state === undefined) {
     return <Text style={styles.title}>消息</Text>;
   }

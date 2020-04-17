@@ -1,6 +1,5 @@
 import React from 'react';
 import {DrawerContentScrollView, DrawerItem} from '@react-navigation/drawer';
-import DrawerSection from 'react-native-paper/src/components/Drawer/DrawerSection';
 import {View, StyleSheet, Image, Text} from 'react-native';
 
 export const DrawerContent = (props) => {
